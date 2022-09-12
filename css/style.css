@@ -186,6 +186,11 @@ h3.heading {
   background-color: #2fc1ff;
   margin: 0 auto 2rem;
 }
+
+#features {
+  padding-bottom: 7rem;
+}
+
 .feature span {
   color: #2fc1ff;
   margin-bottom: 0.6rem;
@@ -197,6 +202,11 @@ h3.heading {
 }
 
 /*============= PORTFOLIO SECTION =============*/
+
+.superbox-desscription-text {
+  margin: 1.5rem auto 5.5rem auto;
+  padding: 0 12rem 0 12rem;
+}
 
 .portfolio-item img:hover {
   transform: scale(1.3);
@@ -310,6 +320,10 @@ a.top-scroll:hover {
   .top-scroll {
     display: none !important;
   }
+
+  .superbox-desscription-text {
+    padding: 0 7rem 0 7rem;
+  }
 }
 
 /* Devices under 576px (sm) */
@@ -331,6 +345,9 @@ a.top-scroll:hover {
   iframe {
     width: 340px;
     height: 180px;
+  }
+  .superbox-desscription-text {
+    padding: 0 3rem 0 3rem;
   }
 }
 
